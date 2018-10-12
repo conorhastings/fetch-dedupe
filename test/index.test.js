@@ -335,7 +335,7 @@ describe('fetchDedupe', () => {
           data: null,
           status: 500,
           statusText: 'Internal Server Error',
-          bodyUsed: true,
+          bodyUsed: false,
           ok: false
         })
       );
